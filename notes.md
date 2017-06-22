@@ -38,4 +38,5 @@ Also nostalgia++ - no SD cartridge, no play.
 ### What will happen if this cartridge ends up in a GameBoy?
 The GameBoy, cartridge or both devices will probably explode.. Maybe nothing will happen... Who knows?
 
-* https://www.circuitsonline.net/forum/view/message/1826833
+* Potential SD/USB card reader https://www.circuitsonline.net/forum/view/message/1826833
+* Cartridge PCB layout w/ connector https://github.com/dwaq/Homebrew-Gameboy-Cartridge
