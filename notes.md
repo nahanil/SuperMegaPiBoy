@@ -11,7 +11,8 @@ Audio from the Raspberry Pi's PWM GPIO pin may be the simplest method for audio 
 integrate a USB sound card into the SMPB board for better sound quality, and to keep the Pi's GPIO available for more exciting things.
 
 ## Screen
-Going to see how things go with SMPBv0 using the following 3.5" TFT display from GearBest (with some modification to the controller board to run at 5v likely needed).
+### Composite Display
+Going to see how things go with SMPBv0 using the following 3.5" TFT LCD display from GearBest (with some modification to the controller board to run at 5v likely needed).
 http://www.gearbest.com/development-boards/pp_29447.html
 
 It is likely there are better sized displays with higher resolution, lower power requirements, easier interfacing with the Pi, but for now this guy is going to have to do.
