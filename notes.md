@@ -50,3 +50,10 @@ The GameBoy, cartridge or both devices will probably explode.. Maybe nothing wil
 
 * Potential SD/USB card reader https://www.circuitsonline.net/forum/view/message/1826833
 * Cartridge PCB layout w/ connector https://github.com/dwaq/Homebrew-Gameboy-Cartridge
+
+
+## PCB Manufacture
+Just some ideas in no particular order.
+- https://oshpark.com/
+- https://jlcpcb.com/
+- https://dirtypcbs.com
