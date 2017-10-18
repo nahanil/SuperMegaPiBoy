@@ -1,6 +1,7 @@
 # General notes, inspiration, etc
 
 ## Game controls
+https://learn.adafruit.com/usb-snes-gamepad/programming-the-teensy
 ...
 
 ## Internal USB Hub
