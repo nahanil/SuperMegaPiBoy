@@ -10,9 +10,10 @@
 // 2015-11-20
 //--------------------------------------------------------------------
 #include <Joystick.h>
+int NUM_BUTTONS = 13;
 
 Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,JOYSTICK_TYPE_GAMEPAD,
-  13, 0,                  // Button Count, Hat Switch Count
+  NUM_BUTTONS, 0,                  // Button Count, Hat Switch Count
   true, true, false,     // X and Y, but no Z Axis
   false, false, false,   // No Rx, Ry, or Rz
   false, false,          // No rudder or throttle
@@ -20,7 +21,6 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,JOYSTICK_TYPE_GAMEPAD,
   
 //               udlr,      abxy,                start/sel  l/r .    z
 int buttons[] = {6,3,4,5,   A3, A2, A1, A0,      15, 14,    16, 10,  7};
-int NUM_BUTTONS = 13;
 
 void setup() {
   // Initialize Button Pins
@@ -31,10 +31,6 @@ void setup() {
   // Initialize Joystick Library
   Joystick.begin();
 }
-
-// Constant that maps the phyical pin to the joystick button.
-//const int pinToButtonMap = 9;
-const int pinToButtonMap = 0;
 
 // Last state of the button
 int lastButtonState[] = {0,0,0,0,0,0,0,0,0,0,0,0,0};
